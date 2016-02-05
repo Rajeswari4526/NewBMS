@@ -1,0 +1,34 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+@section featured {
+    <section class="featured">
+        <div class="content-wrapper">
+            <hgroup class="title">
+                <h2>@ViewBag.Message</h2>
+            </hgroup>
+            <p>
+                 It is biult using the technology stack ASP.NET MVC 4, Razor Markup, Entity Framework - Code first approach, SQL Server 2014, Bootstrap, Hosting-Microsoft Azure, Version Control-Github.
+            </p>
+        </div>
+    </section>
+}
+<ol class="round">
+    <li class="one">
+        <h3>To see current functionality</h3>
+        <p>Use the top navigation.</p>
+    </li>
+
+    <li class="two">
+        <h5>Work in Progress</h5>
+            <p>Improve User interface.</p>
+            <p>Improve Models (add more columns to improve DB design).</p>
+            <p>Explore Repository Pattern (Unit of Work) and evaluate if it applies.</p>
+    </li>
+
+    <li class="three">
+        <h5>Future work (To maintain industry levels)</h5>
+            <p>Dependency injection through StructureMap.</p>
+            <p>Effective logging through librarys like Serilog.</p>
+    </li>
+</ol>
