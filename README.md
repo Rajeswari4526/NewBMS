@@ -1,7 +1,7 @@
 # NewBMS
 
 Bug Management System is used to keeptrack of the bugs in a project.
-This is built using technologies ASP.NET MVC 4, Razor Markup, Entity Framework - Code first approach, SQL Server 2014, Bootstrap, Github - version controlling, Hosting-Microsoft Azure.
+This is built using technologies ASP.NET MVC 4, Razor Markup, Entity Framework 5 - Code first approach, SQL Server 2014, Bootstrap, Github - version controlling, Hosting-Microsoft Azure.
 
 We can navigate through the application using the top navigation bar.
 We can add and edit the bugs in the "Bugs" section. The options (Projects, Categories, Employees, Priorities...) that we see while adding the bug are configurable.
